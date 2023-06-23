@@ -1,7 +1,6 @@
 import type { BuildOptions } from "esbuild";
 
 import { build, context } from "esbuild";
-import { sassPlugin } from "esbuild-sass-plugin";
 import { htmlPlugin } from "@craftamap/esbuild-plugin-html";
 
 const isDev = process.env.NODE_ENV === "development";
@@ -34,13 +33,12 @@ const renderer: BuildOptions = {
     ".svg": "file",
   },
   plugins: [
-    sassPlugin(),
     htmlPlugin({
       files: [
         {
-          entryPoints: ["src/web/index.tsx"],
           filename: "index.html",
-          htmlTemplate: "src/web/index.ejs",
+          entryPoints: ["src/web/index.tsx"],
+          htmlTemplate: "src/web/index.html",
         },
       ],
     }),

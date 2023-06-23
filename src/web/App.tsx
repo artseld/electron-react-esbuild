@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 
-import reactLogo from "./icons/react.svg";
 import esbuildLogo from "./icons/esbuild.svg";
 import electronLogo from "./icons/electron.svg";
-import "./App.scss";
+import "./App.css";
 
 export const App = () => {
   const [count, setCount] = useState(0);
