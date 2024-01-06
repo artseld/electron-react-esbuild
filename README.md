@@ -12,6 +12,8 @@ An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [R
 - With sample scripts for [electron-builder](https://www.electron.build/).
 - In addition, sample icons for macOS and Windows are included.
 
+<img width="804" alt="Screenshot 2024-01-06 at 23 01 52" src="https://github.com/artseld/electron-react-esbuild/assets/1220734/8329fd0d-0dfa-4a0e-bdfb-102b147da67b">
+
 ## Usage
 
 ```sh
