@@ -43,7 +43,7 @@ export const App = () => {
           className="external"
           aria-label="mui-link"
           onClick={() =>
-            window.myAPI.openExternal("https://mui.com/material-ui/")
+            window.myAPI.openExternal("https://mui.com")
           }
         >
           <img src={muiLogo} className="logo" alt="MUI logo" />
@@ -57,7 +57,7 @@ export const App = () => {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the esbuild and React logos to learn more
+        Click on the esbuild, React and MUI logos to learn more
       </p>
     </div>
   );
