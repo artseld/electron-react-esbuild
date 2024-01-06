@@ -1,9 +1,9 @@
 {
-  "name": "electron-react-esbuild",
+  "name": "electron-react-mui-esbuild",
   "version": "0.0.0",
   "description": "An Electron boilerplate",
   "license": "MIT",
-  "author": "sprout2000",
+  "author": "artseld",
   "main": "dist/main.js",
   "scripts": {
     "dev": "rimraf dist && run-p dev:esbuild dev:electron",
