@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 
+import muiLogo from "./icons/mui.svg";
 import esbuildLogo from "./icons/esbuild.svg";
 import electronLogo from "./icons/electron.svg";
 import "./App.css";
+
+import Button from '@mui/material/Button';
 
 export const App = () => {
   const [count, setCount] = useState(0);
@@ -30,16 +33,25 @@ export const App = () => {
         <div
           className="external"
           aria-label="esbuild-link"
-          onClick={() => window.myAPI.openExternal("https://esbuild.github.io")}
+          onClick={() =>
+            window.myAPI.openExternal("https://esbuild.github.io")
+          }
         >
           <img src={esbuildLogo} className="logo" alt="esbuild logo" />
         </div>
+        <div
+          className="external"
+          aria-label="mui-link"
+          onClick={() =>
+            window.myAPI.openExternal("https://mui.com/material-ui/")
+          }
+        >
+          <img src={muiLogo} className="logo" alt="MUI logo" />
+        </div>
       </div>
-      <h1>Electron + esbuild</h1>
+      <h1>Electron + esbuild + MUI</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <Button onClick={() => setCount((count) => count + 1)} variant="contained">count is {count}</Button>
         <p>
           Edit <code>src/web/App.tsx</code> and save to test HMR
         </p>
