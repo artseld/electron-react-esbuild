@@ -1,6 +1,6 @@
 # electron-react-mui-esbuild
 
-An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [React](https://reactjs.org/) with [MUI](https://mui.com) and [TypeScript](https://www.typescriptlang.org/). Forked from [sprout2000/electron-react-esbuild](https://github.com/sprout2000/electron-react-esbuild).
+An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [React](https://reactjs.org/) + [MUI](https://mui.com) and [TypeScript](https://www.typescriptlang.org/). Forked from [sprout2000/electron-react-esbuild](https://github.com/sprout2000/electron-react-esbuild).
 
 [![GitHub license](https://img.shields.io/github/license/artseld/electron-react-mui-esbuild)](https://github.com/artseld/electron-react-mui-esbuild/blob/main/LICENSE.md)
 ![jest](./coverage/badge.svg)
@@ -18,7 +18,7 @@ An [Electron](https://www.electronjs.org/) boilerplate with hot reloading for [R
 
 ```sh
 $ git clone https://github.com/artseld/electron-react-mui-esbuild.git
-$ cd electron-react-esbuild
+$ cd electron-react-mui-esbuild
 $ npm install
 
 # on development
